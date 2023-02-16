@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Style/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;700&display=swap" rel="stylesheet">
+  <title>Layout and animation CSS</title>
+</head>
+<body>
+  <div class="page">
+    <!-- Main Content -->
+    <section class="container">
+      <nav class="navbar">
+        <div class="navbar__content">
+          <img src="https://www.lindt.ch/static/version1675837855/frontend/Lseu/transactional/de_CH/images/logo.png" alt="">
+          <ul>
+            <li><a href="/">Lindor</a></li>
+            <li><a href="/">Tafeln</a></li>
+            <li><a href="/">Neuheiten</a></li>
+            <li><a href="/">Geschenkideen</a></li>
+          </ul>
+        </div>
+      </nav>
+    
+    <section class="main-content">
+      <p>Design your</p>
+      <h1>Superhero</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse cupiditate nemo saepe commodi maiores impedit error perferendis eveniet omnis a officiis ab odio placeat laudantium, magnam ipsam quam beatae. Quaerat!</p>
+    </section>
+    <section class="side-content">
+      <p>Lindor</p>
+      <img src="https://www.pngkey.com/png/full/510-5103968_what-are-your-marketing-troubles-lindt-milk-chocolate.png" alt="">
+      <div></div>
+    </section>
+    <section class="footer">
+      <div id="button1">
+        <img src="https://www.lindt.ch/media/wysiwyg/MilkWrapper250x250.jpg" alt="">
+      </div>
+      <div>
+        <img src="https://www.lindt.ch/media/ls-sync-carousel/70_Wrapper250x250.jpg" alt="">
+      </div>
+      <div>
+        <img src="https://www.lindt.ch/media/wysiwyg/Lindor-Salted-Caramel-Truffle-250x250.jpg" alt="">
+      </div>
+    </section>
+    </section>
+    <!-- Loader -->
+    <section class="loader">
+      <div>
+        <img src="https://www.lindt.ch/media/wysiwyg/Lindor-Salted-Caramel-Truffle-250x250.jpg" alt="">
+      </div>
+      <div>
+        <img src="https://www.lindt.ch/media/ls-sync-carousel/70_Wrapper250x250.jpg" alt="">
+      </div>
+      <div >
+        <img src="https://www.lindt.ch/media/wysiwyg/MilkWrapper250x250.jpg" alt="">
+      </div>
+    </section>
+    <!-- Modal -->
+    <section class="modal hidden">
+      <div class="modal__content">
+        <a href="#" class="modal__content--close"></a>
+        <div class="modal__content--slider">
+          <input type="radio" name="slider-1" id="radio-1" checked>
+          <input type="radio" name="slider-1" id="radio-2">
+          <input type="radio" name="slider-1" id="radio-3">
+          <div class="cards">
+            <label for="radio-1" id="card-1" class="card">
+              <img src="" alt="">
+            </label>
+            <label for="radio-2" id="card-2" class="card">
+              <img src="" alt="">
+            </label>
+            <label for="radio-2" id="card-3" class="card">
+              <img src="" alt="">
+            </label>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+<script src="modal.js"/></script>
+</html>
